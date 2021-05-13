@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    background-color: white;
+    text-rendering: optimizeLegibility;
+    font-family:'Courier New', Courier, monospace;
+    color: orange;
+}
+.container{
+    max-width: 1200px;
+    background-color: white;
+
+}
+.h1, h1{
+    font-size: 1.125em;
+}
+.h1{
+    color: #555;
+    margin-top: 0;
+    margin-bottom: .5em;
+    text-rendering: optimizeLegibility;
+}
+.h2{
+    color: orange;
+}
+.row{
+    display: flex;
+}
+.col{
+    width: 25%;
+    flex: calc(100%/4);
+    margin: 30%;
+
+}
+.img{
+    width: 100%;
+}
+
+
